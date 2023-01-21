@@ -27,6 +27,20 @@
         |_Rabbit: 学習用うさぎの画像一覧
 ```
 
+## TensorBoard によるログ確認
+
+1. `docker run --rm -it -p 6006:6006 -v <本ディレクトリへのパス>:/work dog-vs-cat-vs-rabbit tensorboard --logdir ./dst --bind_all`
+
+2. ブラウザで `http://localhost:6006/` にアクセスする。
+
+3. ブラウザにて、下記の指標を確認することができる。
+
+- train, valid, test での loss
+
+- train, valid, test での accuracy
+
+  ![tensorboard](tensorboard_demo.png)
+
 ## 使用モデル, フレームワーク
 
 - フレームワーク
