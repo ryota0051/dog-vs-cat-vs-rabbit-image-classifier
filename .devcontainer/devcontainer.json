@@ -1,5 +1,5 @@
 {
-  "name": "image_scraping",
+  "name": "dog_vs_cat_vs_rabbit",
   "forwardPorts": [8888],
   "dockerFile": "../Dockerfile",
   "customizations": {

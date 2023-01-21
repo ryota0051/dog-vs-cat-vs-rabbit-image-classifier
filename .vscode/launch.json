@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "image_scraping",
+      "name": "dog_vs_cat_vs_rabbit",
       "type": "python",
       "request": "launch",
       "program": "${file}",
